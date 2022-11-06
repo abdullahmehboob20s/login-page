@@ -9,7 +9,7 @@ function Link({ to, label, weight = "600", variant = 0 }) {
   return (
     <a
       href={to}
-      className={`text-sm outline-none shadow-active transition-all duration-200 rounded cursor-pointer ${variants[variant]}`}
+      className={`text-sm outline-none focus:shadow-focus transition-all duration-200 rounded cursor-pointer ${variants[variant]}`}
       style={{ fontWeight: weight }}
     >
       {label}

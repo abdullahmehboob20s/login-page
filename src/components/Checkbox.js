@@ -1,7 +1,7 @@
 import React from "react";
 
 function Checkbox({
-  className = "flex items-center space-x-3",
+  className = "flex items-center space-x-2",
   inputClassName,
   name,
   id,
@@ -14,7 +14,7 @@ function Checkbox({
         type={"checkbox"}
         name={name}
         id={id}
-        className={`min-w-[16px] outline-none h-4 rounded transition-all duration-200 bg-white checked:bg-link ${inputClassName}`}
+        className={`min-w-[16px] shadow-checkbox focus:shadow-focus outline-none h-4 rounded transition-all duration-200 bg-white checked:bg-link ${inputClassName}`}
         defaultChecked={defaultChecked}
       />
       {title && (

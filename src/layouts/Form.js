@@ -6,8 +6,8 @@ import Link from "../components/Link";
 
 function Form() {
   return (
-    <form className="form py-8 lg:py-14 px-5 lg:px-16 rounded bg-white w-full">
-      <h2 className="text-grayish text-2xl font-semibold mb-7">
+    <form className="shadow-form py-8 lg:py-14 px-5 lg:px-16 rounded bg-white w-full">
+      <h2 className="text-grayish text-2xl mb-5 font-sohne">
         Sign in to your account
       </h2>
       <div className="space-y-8">
@@ -20,7 +20,7 @@ function Form() {
           LabelRightComponent={() => <Link label="Forgot your password?" />}
         />
       </div>
-      <div className="mt-10 mb-8">
+      <div className="mt-8 mb-8">
         <Checkbox
           title="Stay signed in for a week"
           id="week"

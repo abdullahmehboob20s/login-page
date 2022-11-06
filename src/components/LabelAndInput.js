@@ -25,7 +25,7 @@ function LabelAndInput({
         name={name}
         type={type}
         placeholder={placeholder}
-        className="input outline-none px-4 py-2 rounded border-1px border-[rgba(0,0,0,.2)] w-full block transition-all duration-150 text-text"
+        className="input outline-none px-4 focus:shadow-focus h-11 rounded-md border-1px border-gray-200 w-full block transition-all duration-150 text-text font-light"
       />
     </div>
   );
