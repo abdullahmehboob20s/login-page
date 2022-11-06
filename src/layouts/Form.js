@@ -7,7 +7,7 @@ import Link from "../components/Link";
 function Form() {
   return (
     <form className="form py-8 lg:py-14 px-5 lg:px-16 rounded bg-white w-full">
-      <h2 className="text-[rgb(60,66,87)] text-2xl font-semibold mb-7">
+      <h2 className="text-grayish text-2xl font-semibold mb-7">
         Sign in to your account
       </h2>
       <div className="space-y-8">
